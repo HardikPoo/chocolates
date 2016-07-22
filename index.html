@@ -20,5 +20,15 @@
   <body>
      <marquee>This site is under development</marquee>
      <center><h1>Coming soon!</h1></center>
+     
+     <script language="JavaScript">
+  window.onbeforeunload = confirmExit;
+  function confirmExit()
+  {
+    return "Are you sure you want to exit this page?";
+  }
+</script>
+
+
   </body>
 </html>
